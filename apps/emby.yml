@@ -43,6 +43,7 @@
           - '{{path.stdout}}:{{path.stdout}}'
           - '/mnt:/mnt'
           - '/mnt/unionfs:/unionfs'
+          - '/vault:/mnt/vault'
 
     - name: 'Setting PG ENV'
       set_fact:

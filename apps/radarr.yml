@@ -53,6 +53,7 @@
           - '{{path.stdout}}:{{path.stdout}}'
           - '/etc/localtime:/etc/localtime:ro'
           - '/mnt:/mnt'
+          - '/vault:/mnt/vault'
 
     - name: 'Setting PG ENV'
       set_fact:
